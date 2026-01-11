@@ -1,0 +1,96 @@
+@font-face {
+    font-family: robotico;
+    src: url(fontes/idroid.otf) format(Opentype);
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    
+}
+header{
+    color: white;
+    background-image: linear-gradient(to top, #195A36, #3CD681);
+    padding-top: 1px;
+  
+    
+}
+
+header>p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header>h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header>nav>a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+main{
+    background-color: white;
+    margin: 0px 10%;
+    padding: 9px ;
+    
+    
+}
+main>h1{
+    font-family: robotico;
+    color: #1E5F3C;
+    font-size: 26px;
+}
+
+main>h2{
+font-family: robotico;
+font-size: 18px;
+color: #1E5F3C;
+background-image: linear-gradient(to right,rgba(0, 128, 0, 0.219) , white );
+}
+main>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 25px;
+    text-align: justify;
+}
+main>p>a{
+ color: #1E5F3C;
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color: #195A36;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+section{
+    background-color: #C5EBD6 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-radius: 10px;
+   padding: 0px 1px;
+   padding-bottom: 10px;
+   
+}
+h3{background-color: #195A36;
+padding: 10px;   
+color: white;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+section>p{
+    text-indent: 25px;
+    text-align: justify;
+}
+img{
+display: block; /* Ou display: inline-block; */
+  margin: 10px auto; /* Exemplo de margem */
+}
